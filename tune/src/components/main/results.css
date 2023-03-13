@@ -1,0 +1,9 @@
+.result{
+    width: 95%;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

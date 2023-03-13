@@ -1,0 +1,155 @@
+.search-pane{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 20px;
+    gap: 80px;
+}
+.arrows{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #676669;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    height: 50px;
+    max-width: 500px;
+    padding: 5px 0px;
+    padding-left: 15px;
+    padding-right: 8px;
+    border-radius: 15px;
+    color: #676669;
+}
+.searchbar{
+    height: 40px;
+    width: 300px;
+    border: none;
+    padding: -2px 5px;
+    font-size: 20px;
+}
+.searchbar::placeholder{
+    font-size: 15px;
+    
+}
+.searchbar:focus{
+    outline: none;
+}
+
+.form-bar{
+    display: flex;
+    gap: 5px;
+}
+.btn{
+    border: none;
+    background-color: #FCA300;
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner{
+    background-image: url(./lojay.png);
+    background-size: cover;
+    padding: 10px 25px;
+    height: 220px;
+    border-radius: 10px;
+}
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+.lower-title{
+    color: #F4F5FE;
+}
+.play-btn{
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.follow-btn{
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+    padding: 10px 25px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.num{
+    font-size: 13px;
+    font-weight: 500;
+}
+.listeners{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.playbar{
+    height: 90px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 15px;
+}
+
+
+.icon-container{
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: #F4F5FE;
+}
+.icons{
+    color: #676669;
+    font-weight: 100;
+}
+.iconz{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.iconzz{
+    display: flex;
+    gap: 5px;
+}
+.iconzzz{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon-containeer{
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: #F4F5FE;
+}
+.icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.playlist-table{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
